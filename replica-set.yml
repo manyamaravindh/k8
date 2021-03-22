@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: ecomm-replicaset
+  name: calc-replicaset
   labels: 
-    app: ecomm-app
+    app: calc-app
     tier: frontend
 spec:
   replicas: 2
@@ -16,7 +16,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: ecomm
-        image: ravi2krishna/webapp
+      - name: calc
+        image: aravindhmanyam/calc
         ports:
            - containerPort: 80
