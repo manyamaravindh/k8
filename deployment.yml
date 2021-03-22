@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ecomm-deployment
+  name: calc-deployment
   labels: 
-    app: ecomm-app
+    app: calc-app
     tier: frontend
 spec:
   replicas: 4
@@ -16,7 +16,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - name: nginx
-        image: nginx
+      - name: tomcat
+        image: tomcat
         ports:
         - containerPort: 80
