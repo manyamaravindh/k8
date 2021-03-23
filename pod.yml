@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: web-container
-    image: tomcat
+    image: aravindhmanyam/calc
     ports:
     - containerPort: 8080
