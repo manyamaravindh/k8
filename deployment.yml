@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: aravindhmanyam/calc
+        image: ravi2krishna/ecomm
         ports:
-        - containerPort: 8080
+        - containerPort: 80
