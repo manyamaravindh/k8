@@ -28,6 +28,6 @@ spec:
     spec:
       containers:
       - name: calc
-        image: aravindhmanyam/calc
+        image: ravi2krishna/ecomm
         ports:
-        - containerPort: 8080
+        - containerPort: 80
